@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: client
+
+server:
+  port: 8000
+
+client:
+  service2:
+    url: http://localhost:8200
+# Set this property if calling Service 1 without Registry Server
+#  service1:
+#    url: http://localhost:8100
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
