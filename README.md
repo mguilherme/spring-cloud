@@ -5,3 +5,4 @@ Example calling 2 endpoints, with and without registry server using [Eureka Serv
 * [Service 2](service2) - `/service2` endpoint without server registration.
 * [Client](client) - `/service1` and `/service2` endpoints to call above services using Spring Cloud Feign (with and without url property).
 * [Eureka Server](eureka-server) - Registry Server.
+* [Spring Boot Admin](spring-boot-admin) - Spring Boot Admin.
